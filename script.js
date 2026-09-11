@@ -4,5 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const expenseAmountInput = document.getElementById("expense-amount")
     const expenseList = document.getElementById("expense-list")
     const totalAmountDisplay = document.getElementById("total-amount")
+
+    let expenses = []
     
 })
