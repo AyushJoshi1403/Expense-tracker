@@ -6,5 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalAmountDisplay = document.getElementById("total-amount")
 
     let expenses = []
+    let totalAmount = calculateTotal()
     
 })
