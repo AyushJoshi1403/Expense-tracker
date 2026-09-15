@@ -7,5 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let expenses = []
     let totalAmount = calculateTotal()
+
+    expenseForm.addEventListener('submit', (e) => {
+        
+    })
     
 })
