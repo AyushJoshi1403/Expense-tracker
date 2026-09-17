@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let totalAmount = calculateTotal()
 
     expenseForm.addEventListener('submit', (e) => {
-        
+        e.preventDefault()
+        const name = expenseNameInput.value.trim()
     })
     
 })
