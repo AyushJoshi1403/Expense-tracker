@@ -11,6 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
     expenseForm.addEventListener('submit', (e) => {
         e.preventDefault()
         const name = expenseNameInput.value.trim()
-    })
-    
+    })  
 })
